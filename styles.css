@@ -29,7 +29,7 @@ img.rounded.img-fluid.object-fit-cover{
 /*#working-img{
    max-width: 500px;
 }*/
-/*responsive */
+/*responsive Tablate */
 
 @media screen and (max-width:992px){
     #Model{
@@ -39,6 +39,15 @@ img.rounded.img-fluid.object-fit-cover{
        align-items: center;
     }
     .text-white.text-wrap.px-3{
+        text-align: center;
+    }
+    #Students-card-title{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card-body{
         text-align: center;
     }
 }
