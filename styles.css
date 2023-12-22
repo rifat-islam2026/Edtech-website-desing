@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 .carousel-caption{
-    margin-bottom: 190px;
     z-index: 2;
 }
 .carousel-inner::before{
@@ -16,4 +15,15 @@
     left: 0%;
     background: rgba(29, 29, 29, 0.70);
     z-index: 1;
+}
+#course-img{
+    min-height: 165px;
+}
+img.rounded.img-fluid.object-fit-cover{
+    width: 300px;
+}
+/*responsive */
+
+@media screen and (max-width:992px){
+    
 }
