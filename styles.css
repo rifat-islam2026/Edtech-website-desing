@@ -24,6 +24,7 @@ img.rounded.img-fluid.object-fit-cover{
 }
 #bg-color{
     background: #F4FAFD;
+    margin-bottom: 80px;
 }
 /*#working-img{
    max-width: 500px;
@@ -31,5 +32,13 @@ img.rounded.img-fluid.object-fit-cover{
 /*responsive */
 
 @media screen and (max-width:992px){
-    
+    #Model{
+       display: flex;
+       flex-direction: column;
+       justify-content: center; 
+       align-items: center;
+    }
+    .text-white.text-wrap.px-3{
+        text-align: center;
+    }
 }
