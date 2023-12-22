@@ -22,6 +22,12 @@
 img.rounded.img-fluid.object-fit-cover{
     width: 300px;
 }
+#bg-color{
+    background: #F4FAFD;
+}
+/*#working-img{
+   max-width: 500px;
+}*/
 /*responsive */
 
 @media screen and (max-width:992px){
