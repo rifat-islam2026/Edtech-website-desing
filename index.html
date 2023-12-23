@@ -381,7 +381,7 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="p-3 mb-3 border rounded">
                     <div class="d-flex justify-content-between align-items-center py-3">
                         <div>
@@ -414,6 +414,71 @@
                 <button type="button" class="btn btn-primary fw-medium px-3 mt-5">View All</button>
             </div>
         </section>
+        <!--Accordion title -->
+        <section class="py-5">
+            <div class="text-center">
+                <h2 class="fw-bold ">Frequently Asked Questions</h2>
+                <p class="w-50 mx-auto text-secondary"><small>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</small></p>
+            </div>
+            <!--Accordion -->
+            <div class="w-75 mx-auto">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header ">
+                        <button class="accordion-button active fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is the difference between flex box and grid?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <p class="text-secondary">flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is the difference between Bootstrap and Tailwind?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="text-secondary">
+                            Tailwind CSS excels in customization and flexibility due to its utility-first approach, allowing developers to create unique designs effortlessly. Bootstrap offers a more structured and opinionated approach, which might not suit projects requiring extensive customization.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          What is a css box model?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="text-secondary">In web development, the CSS box model refers to how HTML elements are modeled in browser engines and how the dimensions of those HTML elements are derived from CSS properties. It is a fundamental concept for the composition of HTML webpages.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          What is a cinematic tag?
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <p class="text-secondary">
+                            there is no specific "cinematic" HTML tag. HTML (Hypertext Markup Language) is a markup language used for structuring content on the web. HTML tags define the structure of a web page by indicating elements such as headings, paragraphs, links, images, and more.
+                         </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        
     </main>
     <!--Bootstrap Script link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
